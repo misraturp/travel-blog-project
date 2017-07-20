@@ -34,6 +34,14 @@ header {
   letter-spacing: 10px;
 }
 
+.caption span.border a{
+  color: #fff;
+}
+
+.caption span.border a:hover{
+	color: #a2b6d6;	
+}
+
 .copyright{
 	margin: 20px;
 	text-align:center;
@@ -54,15 +62,36 @@ header {
 }
 
 nav a:hover{
-	background-color: red;
+	background-color: #91d8af;
 }
 
 nav a:active{
-	margin-right: 10px;
+	border-right: 10px;
+	  position: relative;
+  top: 2px;
 }
 
-nav a{
-	padding:20px;
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none !important;
+  padding: 15px;
+}
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
 }
 
 header .row,
@@ -76,9 +105,35 @@ header h1 {
   margin: 0;
 }
 
+.trip_info{
+	background-color:#9cbfa0;
+	display: flex;
+	background-size:cover;
+	font-size:20px;
+}
+
+.trip_info span.info{
+	padding: 50px;
+}
+
+span.dur_info{
+	display:flex;
+  background-image: url("42.png");
+  width: 2%;
+  height: 2%;
+  padding-left: 15px;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
+  
+}
+
 header nav {
   display: flex;
+  background-size: cover;
   justify-content: flex-end;
+  heigh: 500px;
 }
 
 header p {
